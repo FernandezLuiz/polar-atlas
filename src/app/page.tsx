@@ -40,64 +40,64 @@ const expeditionsData = [
       name: "SY Belgica",
       type: "Omgebouwde Walvisvaarder (Steam Yacht)",
       specs: ["Lengte: 30 meter", "3-laags eikenhout tegen ijsdruk", "150 PK Stoommachine"],
-      image: "/img/3142_belgica.jpg", 
-      planImage: "/img/5603_scheepsplan.jpg"
+      image: "/polar-atlas/img/3142_belgica.jpg", 
+      planImage: "/polar-atlas/img/5603_scheepsplan.jpg"
     },
     coordinates: { lat: -71.51, lng: -85.26, altitude: 1.4 },
     crew: [
       {
         name: "Adrien de Gerlache",
         role: "Commandant & Leider",
-        image: "/img/12504_adrien-de-gerlache.jpg",
+        image: "/polar-atlas/img/12504_adrien-de-gerlache.jpg",
         bio: "De visionaire Belgische marineofficier die zijn eigen familiefortuin op het spel zette.",
         fact: "Verkocht zijn eigen bezittingen om de reis te kunnen betalen."
       },
       {
         name: "Roald Amundsen",
         role: "Eerste Stuurman",
-        image: "/img/12785_roald-amundsen.jpg",
+        image: "/polar-atlas/img/12785_roald-amundsen.jpg",
         bio: "De jonge Noorse poolreiziger die later als eerste mens ooit de geografische Zuidpool zou bereiken.",
         fact: "Sloot zich aan als vrijwilliger zonder loon te eisen om ervaring op te doen."
       },
       {
         name: "Georges Lecointe",
         role: "Kapitein & Hydroloog",
-        image: "/img/12556_george-lecointe.jpg",
+        image: "/polar-atlas/img/12556_george-lecointe.jpg",
         bio: "De rechterhand van De Gerlache en verantwoordelijk voor de navigatie en wetenschappelijke metingen.",
         fact: "Was een briljant astronoom van de Koninklijke Sterrenwacht van België."
       },
       {
         name: "Henryk Arctowski",
         role: "Geoloog & Meteoroloog",
-        image: "/img/12557_henryck-arctowski.jpg",
+        image: "/polar-atlas/img/12557_henryck-arctowski.jpg",
         bio: "Poolse wetenschapper die tijdens de ijs-opsluiting de allereerste jaarronde meteorologische data van Antarctica verzamelde.",
         fact: "Het Arctowski-station op King George Island is later naar hem vernoemd."
       },
       {
         name: "Emile Racoviță",
         role: "Spelofiel & Bioloog",
-        image: "/img/12501_emile-racovitza.jpg",
+        image: "/polar-atlas/img/12501_emile-racovitza.jpg",
         bio: "Roemeense wetenschapper die de fauna en flora van Antarctica in kaart bracht.",
         fact: "Verzamelde tijdens de expeditie meer dan 1.200 zoölogische en botanische specimina."
       },
       {
         name: "Émile Danco",
         role: "Geofysicus",
-        image: "/img/12513_emile-danco.jpg",
+        image: "/polar-atlas/img/12513_emile-danco.jpg",
         bio: "Belgische luitenant belast met de observaties van het aardmagnetisme.",
         fact: "Is helaas tijdens de zware poolnacht aan boord overleden ten gevolge van een hartaandoening."
       },
       {
         name: "Dr. Frederick Cook",
         role: "Scheepsarts & Fotograaf",
-        image: "/img/fre.jpg",
+        image: "/polar-atlas/img/fre.jpg",
         bio: "De Amerikaanse arts die de bemanning redde van scheurbuik door ze te dwingen vers pinguïn- en zeehondenvlees te eten.",
         fact: "Zijn medische vindingrijkheid hield de mannen mentaal op de been tijdens de poolnacht."
       },
       {
         name: "Nansen",
         role: "Scheepskat & Mascotte",
-        image: "/img/12495_nansen-de-scheepskat.jpg",
+        image: "/polar-atlas/img/12495_nansen-de-scheepskat.jpg",
         bio: "De legendarische zwart-witte scheepskat, vernoemd naar de Noorse ontdekkingsreiziger Fridtjof Nansen.",
         fact: "Had de cruciale taak om het schip vrij te houden van ongedierte, maar overleed helaas tijdens de donkere poolnacht."
       }
@@ -127,22 +127,22 @@ const expeditionsData = [
         "Bezetting: Ongeveer 17 wetenschappers en technici",
         "Onderzoek: Meteorologie, ionosfeer, glaciologie en geomagnetisme"
       ],
-      image: "/img/expeditie.jpeg",
-      planImage: "/img/5322_isfjord.jpg"
+      image: "/polar-atlas/img/expeditie.jpeg",
+      planImage: "/polar-atlas/img/5322_isfjord.jpg"
     },
     coordinates: { lat: -70.43, lng: 24.31, altitude: 1.4 },
     crew: [
       {
         name: "Gaston de Gerlache",
         role: "Expeditieleider",
-        image: "/img/gaston.jpeg",
+        image: "/polar-atlas/img/gaston.jpeg",
         bio: "Bracht 60 jaar na zijn vader de Belgen definitief terug naar Antarctica und leidde de bouw van het gloednieuwe station.",
         fact: "Hij was de zoon van Adrien de Gerlache, de commandant van de legendarische Belgica."
       },
       {
         name: "Tony Van Autenboer",
         role: "Geoloog & Glacioloog",
-        image: "/img/Tony.jpeg",
+        image: "/polar-atlas/img/Tony.jpeg",
         bio: "Verantwoordelijk voor het vloeien en in kaart brengen van de reusachtige Antarctische gletsjers rondom het Sør Rondane-gebergte.",
         fact: "Er is later een ijsvlakte op Antarctica naar hem vernoemd: de Van Autenboer-gletsjer."
       },
@@ -156,7 +156,7 @@ const expeditionsData = [
       {
         name: "De Poolhonden",
         role: "Mascottes & Transport",
-        image: "/img/poolhonden.jpg",
+        image: "/polar-atlas/img/poolhonden.jpg",
         bio: "Groep rasechte husky's die werden ingezet om sleden met zware wetenschappelijke meetapparatuur over het ijs te trekken.",
         fact: "Hoewel er rupsvoertuigen waren, bleken de honden in diepe kloven vaak veel betrouwbaarder."
       }
@@ -186,29 +186,29 @@ const expeditionsData = [
         "Constructie: Gelaagd micro-design (roestvrij staal, dennenhout en dikke isolatie)",
         "Waterbeheer: Geavanceerd micro-zuiveringssysteem dat 100% van het afvalwater recycled"
       ],
-      image: "/img/pe_station.jpg", 
-      planImage: "/img/pe_technisch_plan.jpg" 
+      image: "/polar-atlas/img/pe_station.jpg", 
+      planImage: "/polar-atlas/img/pe_technisch_plan.jpg" 
     },
     coordinates: { lat: -72.01, lng: 23.34, altitude: 1.4 }, 
     crew: [
       {
         name: "Alain Hubert",
         role: "Stichter & Expeditieleider",
-        image: "/img/alain_hubert.jpg",
+        image: "/polar-atlas/img/alain_hubert.jpg",
         bio: "Belgische ontdekkingsreiziger en gids die het revolutionaire concept bedacht en de loodzware bouw in de ijskoude wind coördineerde.",
         fact: "Hij legde ooit samen met Dixie Dansercoer 3.924 kilometer te voet af over Antarctica, een wereldrecord in 1997."
       },
       {
         name: "Dr. Vinciane Debaille",
         role: "Geologe & Meteorietenjager",
-        image: "/img/vi.jpg",
+        image: "/polar-atlas/img/vi.jpg",
         bio: "Leidt expedities rondom het station om meteorieten te zoeken die perfect bewaard zijn gebleven in het blauwe ijs.",
         fact: "Ze vond samen met haar team een record-meteoriet van maar liefst 7,6 kilo op het Antarctische ijs!"
       },
       {
         name: "Het Smart Grid",
         role: "Het 'Digitale' Brein",
-        image: "/img/smartgrid.jpg",
+        image: "/polar-atlas/img/smartgrid.jpg",
         bio: "Het hypermoderne computersysteem dat continu de energie verdeelt. Als de wind stopt, zet het systeem zware apparaten uit om stroom te besparen.",
         fact: "Dankzij dit brein verbruikt het station maar één tredje van de energie van een normaal poolstation."
       }
