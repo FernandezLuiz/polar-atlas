@@ -12,6 +12,15 @@ const Globe = dynamic(() => import("react-globe.gl"), {
   )
 });
 
+// Helper-functie om afbeeldingen altijd naar de juiste GitHub Pages submap te sturen
+const getImgPath = (src: string) => {
+  if (!src) return "";
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  // Als het pad al begint met de basePath, plakken we het er niet dubbel voor
+  if (basePath && src.startsWith(basePath)) return src;
+  return `${basePath}${src}`;
+};
+
 // Geografische achtergrond-labels
 const geoLabels = [
   { text: "AFRICA", lat: -15.0, lng: 20.0, size: 1.1, color: "#64748b" },
@@ -56,7 +65,7 @@ const expeditionsData = [
         name: "Roald Amundsen",
         role: "Eerste Stuurman",
         image: "/img/12785_roald-amundsen.jpg",
-        bio: "De jonge Noorse poolreiziger die later als eerste mens ooit de geografische Zuidpool zou bereiken.",
+        bio: "De jonge Noorse poolreiziger die later als eerste mensch ooit de geografische Zuidpool zou bereiken.",
         fact: "Sloot zich aan als vrijwilliger zonder loon te eisen om ervaring op te doen."
       },
       {
@@ -124,7 +133,7 @@ const expeditionsData = [
       specs: [
         "Locatie: Breidbaai (Koningin Maudland)",
         "Constructie: Geprefabriceerde houten barakken",
-        "Bezetting: Ongeveer 17 wetenschappers en technici",
+        "Bezetting: Ongeveer 17 wetenschappers i technici",
         "Onderzoek: Meteorologie, ionosfeer, glaciologie en geomagnetisme"
       ],
       image: "/img/expeditie.jpeg",
@@ -183,7 +192,7 @@ const expeditionsData = [
       specs: [
         "Locatie: Utsteinen Nunatak (1730 meter boven zeeniveau)",
         "Energievoorziening: 100% hernieuwbaar (9 windturbines & 400+ zonnepanelen)",
-        "Constructie: Gelaagd micro-design (roestvrij staal, dennenhout en dikke isolatie)",
+        "Constructie: Gelaagd micro-design (roestvrij staal, dennenhout en dikke iisolatie)",
         "Waterbeheer: Geavanceerd micro-zuiveringssysteem dat 100% van het afvalwater recycled"
       ],
       image: "/img/pe_station.jpg", 
@@ -210,7 +219,7 @@ const expeditionsData = [
         role: "Het 'Digitale' Brein",
         image: "/img/smartgrid.jpg",
         bio: "Het hypermoderne computersysteem dat continu de energie verdeelt. Als de wind stopt, zet het systeem zware apparaten uit om stroom te besparen.",
-        fact: "Dankzij dit brein verbruikt het station maar één tredje van de energie van een normaal poolstation."
+        fact: "Dankzij dit brein verbruikt het station maar één derde van de energie van een normaal poolstation."
       }
     ],
     routePoints: [
@@ -472,10 +481,10 @@ export default function PolarAtlas3D() {
                   </div>
                   <div className="rounded-xl overflow-hidden border border-white/10 aspect-video bg-black group relative">
                     <img 
-                      src={activeExpedition.vessel.image} 
+                      src={getImgPath(activeExpedition.vessel.image)} 
                       alt="Expeditie" 
                       className="w-full h-full object-cover sepia-[0.25] cursor-zoom-in hover:scale-[1.02] transition-transform duration-300"
-                      onClick={() => setEnlargedImage(activeExpedition.vessel.image)}
+                      onClick={() => setEnlargedImage(getImgPath(activeExpedition.vessel.image))}
                     />
                   </div>
                 </div>
@@ -488,10 +497,10 @@ export default function PolarAtlas3D() {
                       <div className="w-20 h-20 rounded-lg overflow-hidden bg-slate-950 flex-shrink-0 border border-white/10 flex items-center justify-center">
                         {member.image ? (
                           <img 
-                            src={member.image} 
+                            src={getImgPath(member.image)} 
                             alt={member.name} 
                             className="w-full h-full object-cover sepia-[0.3] cursor-zoom-in hover:opacity-80 transition-opacity" 
-                            onClick={() => setEnlargedImage(member.image)}
+                            onClick={() => setEnlargedImage(getImgPath(member.image))}
                           />
                         ) : (
                           <div className="text-xl font-mono font-light tracking-wider text-sky-400 select-none">
@@ -525,10 +534,10 @@ export default function PolarAtlas3D() {
                   </div>
                   <div className="rounded-xl overflow-hidden border border-white/10 bg-black p-2 flex items-center justify-center">
                     <img 
-                      src={activeExpedition.vessel.planImage} 
+                      src={getImgPath(activeExpedition.vessel.planImage)} 
                       alt="Scheepsplan of Bouwtekening" 
                       className="max-h-[250px] object-contain rounded opacity-85 sepia contrast-125 cursor-zoom-in hover:scale-[1.03] transition-transform duration-300" 
-                      onClick={() => setEnlargedImage(activeExpedition.vessel.planImage)}
+                      onClick={() => setEnlargedImage(getImgPath(activeExpedition.vessel.planImage))}
                     />
                   </div>
                 </div>
@@ -568,7 +577,7 @@ export default function PolarAtlas3D() {
         <div className="max-w-4xl mx-auto bg-slate-950/80 border border-white/10 backdrop-blur-md p-4 rounded-xl shadow-2xl">
           <div className="flex justify-between text-[10px] tracking-widest uppercase font-mono text-slate-500 mb-2">
             <span className={year < 1957 ? "text-amber-400 font-bold" : ""}>1897: Belgica</span>
-            <span className={year >= 1957 && year < 2007 ? "text-sky-400 font-bold" : ""}>1957: Boudewijnbasis</span>
+            <span className={year >= 1957 && year < 2007 ? "text-sky-400 font-bold" : ""}>1957: Boudewijnavondbasis</span>
             <span className={year >= 2007 ? "text-cyan-400 font-bold" : ""}>2007 - Nu: PE Station</span>
           </div>
           
