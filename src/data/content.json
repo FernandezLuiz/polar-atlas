@@ -1,0 +1,441 @@
+{
+  "expeditions": [
+    {
+      "id": "belgica",
+      "year": 1898,
+      "yearRange": [1897, 1899],
+      "era": "archival",
+      "title": "The Belgica Expedition",
+      "subtitle": "First Winter in Antarctic Darkness",
+      "commander": "Adrien de Gerlache",
+      "vessel": "RV Belgica",
+      "nation": "Belgium",
+      "colorAccent": "#c8a96e",
+      "filterClass": "sepia-grainy",
+      "mapMarker": {
+        "lat": -70.5,
+        "lng": -85.0,
+        "label": "Belgica — Trapped in Pack Ice",
+        "svgX": 290,
+        "svgY": 245
+      },
+      "route": [
+        { "svgX": 310, "svgY": 160, "label": "Tierra del Fuego" },
+        { "svgX": 295, "svgY": 195, "label": "Drake Passage" },
+        { "svgX": 290, "svgY": 230, "label": "Antarctic Peninsula" },
+        { "svgX": 290, "svgY": 245, "label": "Ice Trapped — Belgica Bight" }
+      ],
+      "heroImage": "../assets/Belgica_Antartica/3142_belgica.jpg",
+      "heroImageAlt": "The RV Belgica locked in Antarctic pack ice, 1898",
+      "summary": "The Belgica expedition, led by Belgian naval officer Adrien de Gerlache, became the first to overwinter in Antarctica — not by choice. Trapped in pack ice for 13 harrowing months, the crew endured polar night, scurvy, and psychological collapse. The scientific and human legacy of this voyage transformed Antarctic exploration forever.",
+      "archivalFacts": [
+        "Dr. Frederick Cook defied medical convention by prescribing raw, freshly-killed penguin meat to combat scurvy — a treatment ridiculed at the time, yet credited with saving several lives.",
+        "Roald Amundsen, the future conqueror of the South Pole, served as first mate. He later wrote that the Belgica winter taught him everything about polar survival.",
+        "The crew endured 70 consecutive days of total polar darkness. Several men suffered severe depression; two were declared clinically insane.",
+        "De Gerlache secretly altered the ship's provisions manifest before departure, reducing the food supply to save weight — a decision that nearly doomed the expedition.",
+        "The ship's cat, brought aboard for companionship, mysteriously disappeared during the polar winter, deepening the crew's superstitious anxiety.",
+        "Amundsen and Cook pioneered a technique of cutting a channel through the ice with saws to free the ship — a desperate measure that ultimately worked after weeks of labor."
+      ],
+      "ship": {
+        "name": "RV Belgica",
+        "type": "Three-Masted Barque (converted Norwegian whaler)",
+        "built": 1884,
+        "tonnage": "244 gross tons",
+        "length": "34.2 meters",
+        "beam": "7.7 meters",
+        "engine": "150 HP steam auxiliary engine",
+        "hull": "Reinforced oak with iron plating for ice navigation",
+        "originalName": "Patria (Norwegian sealer)",
+        "acquiredBy": "Purchased by de Gerlache in 1896 for 25,000 Belgian francs",
+        "fate": "Sold after the expedition; used in Arctic waters; scrapped around 1940",
+        "technicalNotes": "The Belgica was not purpose-built for polar exploration. De Gerlache had the hull reinforced with additional oak planking and iron fittings, but the vessel was never truly ice-class. The steam engine was considered a backup to the sails. A small scientific laboratory was constructed below decks.",
+        "image": "/assets/belgica/belgica_specs.jpg"
+      },
+      "gallery": [
+        { "src": "/assets/belgica/gallery_1.jpg", "caption": "Crew members on deck during the Antarctic summer, December 1897" },
+        { "src": "/assets/belgica/gallery_2.jpg", "caption": "The Belgica frozen in pack ice, Bellingshausen Sea, March 1898" },
+        { "src": "/assets/belgica/gallery_3.jpg", "caption": "Scientific equipment used for magnetic and meteorological readings" },
+        { "src": "/assets/belgica/gallery_4.jpg", "caption": "Portrait of Adrien de Gerlache at the helm, circa 1898" }
+      ],
+      "crew": [
+        {
+          "id": "de_gerlache",
+          "name": "Adrien de Gerlache de Gomery",
+          "role": "Expedition Commander",
+          "nationality": "Belgian",
+          "born": "1866, Hasselt, Belgium",
+          "died": "1934, Brussels, Belgium",
+          "portrait": "/assets/crew/belgica/3141_adrien-de-gerlache.jpg",
+          "shortBio": "Naval officer, explorer, and the visionary architect of Belgium's Antarctic ambition.",
+          "fullBio": "Adrien de Gerlache de Gomery was born into a modest military family in Hasselt, Limburg. He joined the Belgian Royal Navy at 17 and quickly distinguished himself as a meticulous navigator and gifted organizer. His obsession with polar exploration began after reading accounts of the British Arctic voyages. Against significant official resistance — and partly self-financed — he organized the first Belgian Antarctic expedition at age 31. The Belgica voyage, though fraught with near-catastrophe, made de Gerlache a national hero. He later led several Arctic expeditions for commercial and scientific purposes and wrote extensively about polar navigation. His leadership during the Belgica's ordeal was often criticized as indecisive, particularly by Amundsen, yet his tenacity in securing the expedition's funding and departure is undeniable.",
+          "archivalFacts": [
+            "De Gerlache reportedly suffered from deep bouts of depression during the polar night, confining himself to his cabin for days at a time.",
+            "He controversially recruited an international crew rather than an all-Belgian one, causing political friction before the voyage even began.",
+            "After the expedition, he attempted multiple commercial ventures in the Arctic, including a failed sealing operation, before dying with considerable debts."
+          ]
+        },
+        {
+          "id": "roald_amundsen",
+          "name": "Roald Amundsen",
+          "role": "First Mate",
+          "nationality": "Norwegian",
+          "born": "1872, Borge, Norway",
+          "died": "1928, Arctic Ocean (rescue mission)",
+          "portrait": "/assets/crew/belgica/amundsen.jpg",
+          "shortBio": "Future conqueror of both Poles. On the Belgica, a young officer learning the brutal art of survival.",
+          "fullBio": "Roald Engelbregt Gravning Amundsen was 25 years old when he signed on as first mate of the Belgica — deliberately seeking polar experience before pursuing his own ambitions. The hardship of the Antarctic winter forged his legendary stoicism and meticulous planning philosophy. He observed every mistake de Gerlache made and vowed never to repeat them. His partnership with Dr. Frederick Cook during the ice entrapment — particularly their insistence on physical exercise, fresh meat, and psychological discipline — is widely credited with preventing more deaths. Amundsen later called the Belgica ordeal 'the most important education of my life.' Thirteen years later, he became the first man to reach the South Pole.",
+          "archivalFacts": [
+            "Amundsen kept a private diary during the Belgica expedition that was far more critical of de Gerlache's leadership than any public account he gave.",
+            "He and Cook were the only crew members who maintained rigorous physical exercise routines throughout the polar night, a practice Amundsen later made mandatory on all his expeditions.",
+            "Amundsen died in 1928 while flying a search-and-rescue mission over the Arctic, looking for survivors of the Italia airship disaster — his body was never recovered."
+          ]
+        },
+        {
+          "id": "frederick_cook",
+          "name": "Dr. Frederick A. Cook",
+          "role": "Ship's Surgeon & Anthropologist",
+          "nationality": "American",
+          "born": "1865, Callicoon Center, New York",
+          "died": "1940, New Rochelle, New York",
+          "portrait": "/assets/crew/belgica/cook.jpg",
+          "shortBio": "The expedition's unsung hero. Cook's medical ingenuity may have saved the crew from total collapse.",
+          "fullBio": "Frederick Albert Cook was a Brooklyn physician whose restless intellect drew him to exploration. He had already served as surgeon on Peary's first Greenland expedition when de Gerlache recruited him. On the Belgica, Cook's role expanded far beyond medicine — he became the de facto psychologist, morale officer, and survival strategist for the trapped crew. His prescription of raw penguin and seal meat to combat scurvy was radically unconventional and bitterly resisted, yet proved effective. He also invented light therapy techniques, directing crew members to sit before an open fire — mimicking sunlight — to combat the depression of the polar night. Cook's later life was mired in controversy: his 1908 claim to have reached the North Pole ahead of Peary remains disputed, and he was convicted of mail fraud in 1923. Yet his contributions on the Belgica are beyond question.",
+          "archivalFacts": [
+            "Cook designed a 'baking therapy' — forcing crew members to sit unclothed in front of a roaring fire to simulate sunlight exposure. Amundsen later confirmed this was genuinely effective.",
+            "He took the first systematic photographs ever made in Antarctica, over 1,200 glass-plate negatives documenting the landscape, wildlife, and crew.",
+            "Cook's North Pole controversy divided the world of exploration for decades. He maintained his claim until his death, having served prison time for an unrelated fraud conviction."
+          ]
+        },
+        {
+          "id": "henryk_arctowski",
+          "name": "Henryk Arctowski",
+          "role": "Oceanographer & Meteorologist",
+          "nationality": "Polish",
+          "born": "1871, Warsaw, Russian Empire (now Poland)",
+          "died": "1958, Washington D.C., USA",
+          "portrait": "/assets/crew/belgica/arctowski.jpg",
+          "shortBio": "The expedition's scientific engine. Arctowski's Antarctic data remained definitive for decades.",
+          "fullBio": "Henryk Arctowski was already a rising star in European science when de Gerlache recruited him. A polymath trained in geology, oceanography, and meteorology at universities in Liège and Paris, he conducted the first systematic scientific observations ever made in Antarctica, working through the polar winter with extraordinary discipline. His meticulous temperature, pressure, and ocean salinity records became foundational texts in Antarctic science. After the expedition, Arctowski emigrated to the United States, eventually becoming a curator at the New York Public Library before returning to scientific work. Antarctica honors his legacy: Arctowski Station, a Polish research base on King George Island, bears his name.",
+          "archivalFacts": [
+            "Arctowski maintained his scientific observation schedules every six hours throughout the entire 13-month entrapment — without exception.",
+            "He was one of the first scientists to propose a connection between solar activity and terrestrial weather patterns.",
+            "Poland's Henryk Arctowski Antarctic Station, established in 1977, is named in his honor."
+          ]
+        },
+        {
+          "id": "emile_racovita",
+          "name": "Émile Racovitză",
+          "role": "Zoologist & Botanist",
+          "nationality": "Romanian",
+          "born": "1868, Iași, Romania",
+          "died": "1947, Cluj, Romania",
+          "portrait": "/assets/crew/belgica/racovita.jpg",
+          "shortBio": "Founder of biospeleology and the expedition's naturalist, Racovitză catalogued Antarctic life with obsessive precision.",
+          "fullBio": "Émile Georges Racovitză was a Romanian-French zoologist who joined the Belgica at de Gerlache's invitation after completing his doctoral studies in Paris under the legendary naturalist Henri de Lacaze-Duthiers. On the expedition, he documented Antarctic fauna with extraordinary rigor — his monograph on penguins remained a standard reference for 50 years. After returning to Europe, Racovitză shifted his focus to cave biology, founding the discipline of biospeleology. He established the world's first speleological institute in Cluj, Romania in 1920, a legacy that overshadowed his Antarctic contributions in his home country.",
+          "archivalFacts": [
+            "Racovitză's Antarctic penguin study — published in seven languages — was considered the definitive scientific work on Pygoscelis antarctica for half a century.",
+            "He is considered the founding father of biospeleology (the biological study of cave ecosystems).",
+            "Romania issued a commemorative postage stamp in his honor in 1968, featuring Antarctic imagery from the Belgica expedition."
+          ]
+        },
+        {
+          "id": "georges_lecointe",
+          "name": "Georges Lecointe",
+          "role": "Captain & Hydrographer",
+          "nationality": "Belgian",
+          "born": "1869, Ath, Belgium",
+          "died": "1929, Brussels, Belgium",
+          "portrait": "/assets/crew/belgica/lecointe.jpg",
+          "shortBio": "The man who actually commanded the ship. Lecointe's navigational skill kept the Belgica afloat.",
+          "fullBio": "Georges Lecointe was the expedition's hydrographer and effective captain — it was de Gerlache's expedition but Lecointe's ship. A career Belgian Navy officer and accomplished scientist, Lecointe conducted extensive gravitational and magnetic measurements throughout the voyage. He was among the first to suffer seriously from scurvy and at one point was given last rites by the Catholic priest aboard. Dr. Cook's penguin-meat treatment revived him within two weeks. After the expedition, Lecointe had a distinguished academic career, becoming Director of the Royal Observatory of Belgium. His hydrographic charts of the Antarctic Peninsula were used by subsequent expeditions for decades.",
+          "archivalFacts": [
+            "Lecointe received last rites from the ship's priest after collapsing from scurvy, yet fully recovered after Cook's dietary intervention.",
+            "His Antarctic charts were still being referenced by British survey ships in the 1930s.",
+            "He later became Director of the Royal Observatory of Belgium, a position he held for over 20 years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magga_dan",
+      "year": 1958,
+      "yearRange": [1957, 1959],
+      "era": "midcentury",
+      "title": "Magga Dan & King Baudouin Base",
+      "subtitle": "Belgium Joins the International Geophysical Year",
+      "commander": "Gaston de Gerlache",
+      "vessel": "MS Magga Dan",
+      "nation": "Belgium",
+      "colorAccent": "#8ba7c7",
+      "filterClass": "grayscale-cool",
+      "mapMarker": {
+        "lat": -70.43,
+        "lng": 24.3,
+        "label": "King Baudouin Base — Queen Maud Land",
+        "svgX": 500,
+        "svgY": 280
+      },
+      "route": [
+        { "svgX": 460, "svgY": 155, "label": "Cape Town, South Africa" },
+        { "svgX": 480, "svgY": 200, "label": "South Atlantic" },
+        { "svgX": 500, "svgY": 245, "label": "Pack Ice Edge" },
+        { "svgX": 500, "svgY": 280, "label": "King Baudouin Base" }
+      ],
+      "heroImage": "/assets/magga_dan/magga_dan_ship.jpg",
+      "heroImageAlt": "MS Magga Dan in Antarctic waters, 1958",
+      "summary": "As part of the International Geophysical Year (1957-1958), Belgium launched its second Antarctic expedition under Gaston de Gerlache — son of the Belgica's commander. The ice-strengthened Danish supply vessel Magga Dan transported materials to establish King Baudouin Base on the Princess Ragnhild Coast, Queen Maud Land. The base operated continuously until 1967.",
+      "archivalFacts": [
+        "Gaston de Gerlache — son of Belgica commander Adrien — led the expedition, creating one of history's most remarkable father-son exploration dynasties.",
+        "The International Geophysical Year (IGY) saw 67 nations collaborate on synchronized global scientific measurements — Antarctica was its crown jewel.",
+        "The King Baudouin Base was constructed on a floating ice shelf at -10°C, requiring engineers to develop new fast-assembly techniques for polar construction.",
+        "Belgium's participation was initially underfunded; a national fundraising campaign involving schoolchildren collecting stamps helped finance equipment.",
+        "The Magga Dan was a purpose-built Danish ice-supply vessel that became one of the most celebrated Antarctic support ships of the Cold War era.",
+        "Soviet and American scientific teams exchanged data with the Belgian base — one of the few genuinely cooperative moments of the Cold War."
+      ],
+      "ship": {
+        "name": "MS Magga Dan",
+        "type": "Ice-Strengthened Cargo Vessel",
+        "built": 1956,
+        "tonnage": "2,188 gross tons",
+        "length": "81 meters",
+        "beam": "14.5 meters",
+        "engine": "Diesel-electric, 3,400 HP",
+        "hull": "Class 1A ice-strengthened steel, bow designed for ice-breaking",
+        "builtBy": "Aalborg Shipyard, Denmark, commissioned by J. Lauritzen Lines",
+        "purpose": "Designed specifically for Antarctic and Arctic supply missions",
+        "fate": "Retired from polar service 1989; converted to floating hotel briefly; scrapped 1993",
+        "technicalNotes": "The Magga Dan represented a new generation of Antarctic supply vessels — purpose-built rather than converted whalers. Her diesel-electric propulsion gave superior low-speed maneuverability in pack ice. She was designed to carry scientific equipment, prefabricated base components, and fuel drums. The name 'Magga Dan' derives from the J. Lauritzen Line tradition of naming ships after daughters of company directors.",
+        "image": "/assets/magga_dan/magga_dan_specs.jpg"
+      },
+      "base": {
+        "name": "King Baudouin Base",
+        "namedAfter": "King Baudouin I of Belgium (reigned 1951–1993)",
+        "established": "January 26, 1958",
+        "location": "Princess Ragnhild Coast, Queen Maud Land, East Antarctica",
+        "coordinates": "70°26′S, 24°18′E",
+        "elevation": "36 meters above sea level",
+        "surfaceType": "Floating ice shelf",
+        "operationalPeriod": "1958–1967",
+        "peakPersonnel": 17,
+        "scientificPrograms": ["Glaciology", "Meteorology", "Cosmic ray research", "Magnetic measurements", "Upper atmosphere studies"],
+        "closure": "Closed in 1967 due to budget constraints; infrastructure buried by snowfall",
+        "legacy": "The base was rediscovered in 2002 by a Belgian-Japanese team; some structures found still intact under ice"
+      },
+      "gallery": [
+        { "src": "/assets/magga_dan/gallery_1.jpg", "caption": "Unloading prefabricated base components from the Magga Dan, 1958" },
+        { "src": "/assets/magga_dan/gallery_2.jpg", "caption": "King Baudouin Base under construction on the ice shelf" },
+        { "src": "/assets/magga_dan/gallery_3.jpg", "caption": "Scientific team conducting atmospheric measurements, 1959" },
+        { "src": "/assets/magga_dan/gallery_4.jpg", "caption": "Gaston de Gerlache at King Baudouin Base" }
+      ],
+      "crew": [
+        {
+          "id": "gaston_de_gerlache",
+          "name": "Gaston de Gerlache",
+          "role": "Expedition Commander",
+          "nationality": "Belgian",
+          "born": "1919, Brussels, Belgium",
+          "died": "2002, Belgium",
+          "portrait": "/assets/crew/magga_dan/gaston_de_gerlache.jpg",
+          "shortBio": "Son of Belgica commander Adrien, Gaston carried his father's Antarctic legacy into the Cold War era.",
+          "fullBio": "Gaston de Gerlache de Gomery was born into polar legend — his father Adrien had commanded the Belgica sixty years earlier. Gaston studied engineering and served in the Belgian colonial service before turning to expedition leadership. His command of the IGY expedition was characterized by methodical precision and an extraordinary ability to maintain crew morale under the relentless Antarctic conditions. Unlike his father's improvised venture, Gaston's expedition benefited from post-war logistics expertise and international scientific coordination. He spent the rest of his career as a science diplomat, advocating for Antarctic Treaty protections and Belgian research funding.",
+          "archivalFacts": [
+            "Gaston was the only person to have a direct family connection to both the first Belgian Antarctic expedition (1897) and the second (1957) — father and son, 60 years apart.",
+            "He insisted that the base construction timeline follow military-style precision scheduling, a method borrowed from his wartime logistics experience.",
+            "After the expedition, de Gerlache became a prominent advocate for the Antarctic Treaty System, testifying before the Belgian parliament multiple times."
+          ]
+        },
+        {
+          "id": "baron_de_looz",
+          "name": "Baron Jean de Looz-Corswarem",
+          "role": "Scientific Director",
+          "nationality": "Belgian",
+          "born": "1921, Liège, Belgium",
+          "died": "1997, Liège, Belgium",
+          "portrait": "/assets/crew/magga_dan/de_looz.jpg",
+          "shortBio": "The expedition's intellectual architect, de Looz designed the most comprehensive Belgian Antarctic science program of the 20th century.",
+          "fullBio": "Jean de Looz-Corswarem was a physicist at the University of Liège whose specialization in cosmic ray research made him a natural fit for IGY participation. He designed the multi-disciplinary scientific program for King Baudouin Base, coordinating meteorological, glaciological, geomagnetic, and atmospheric studies. His team produced data that was shared with the international IGY consortium, receiving considerable recognition in the scientific press. De Looz later became Dean of Sciences at Liège, where he championed student Antarctic research programs.",
+          "archivalFacts": [
+            "De Looz's cosmic ray detector at King Baudouin Base produced readings that contributed to the discovery of the Van Allen radiation belts.",
+            "He co-authored the official Belgian IGY scientific report, a 400-page document distributed to 23 national academies.",
+            "He later designed the curriculum for Belgium's first university-level Antarctic studies program."
+          ]
+        },
+        {
+          "id": "rudi_vandendriessche",
+          "name": "Rudi Vandendriessche",
+          "role": "Chief Glaciologist",
+          "nationality": "Belgian",
+          "born": "1928, Ghent, Belgium",
+          "died": "2011, Ghent, Belgium",
+          "portrait": "/assets/crew/magga_dan/vandendriessche.jpg",
+          "shortBio": "Vandendriessche's ice core work at King Baudouin Base laid early groundwork for understanding Antarctic glacial dynamics.",
+          "fullBio": "Rudi Vandendriessche joined the expedition as a young glaciologist from Ghent University, eager to apply new isotopic dating techniques to Antarctic ice. His drilling operations at King Baudouin Base produced the first Belgian ice cores ever extracted from East Antarctica. Though the technology of the late 1950s limited the analytical depth possible, Vandendriessche's methodology — careful documentation of drilling site conditions, layered sample preservation, and systematic density measurements — became a template for later Belgian and European polar glaciology programs.",
+          "archivalFacts": [
+            "His ice cores, archived in Ghent, were re-analyzed in the 1990s using modern isotopic techniques, yielding climate data spanning 800 years.",
+            "Vandendriessche published a children's science book about Antarctica in 1963 that sold 40,000 copies in Flemish schools.",
+            "He designed a portable ice-drilling rig that was lighter than any previous model — a design still referenced in Antarctic drilling history."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "princess_elisabeth",
+      "year": 2026,
+      "yearRange": [2009, 2026],
+      "era": "contemporary",
+      "title": "Princess Elisabeth Antarctica",
+      "subtitle": "The World's First Zero-Emission Polar Research Station",
+      "commander": "Alain Hubert",
+      "vessel": "Princess Elisabeth Station",
+      "nation": "Belgium",
+      "colorAccent": "#38bdf8",
+      "filterClass": "tech-glow",
+      "mapMarker": {
+        "lat": -71.95,
+        "lng": 23.35,
+        "label": "Princess Elisabeth Station — Utsteinen Ridge",
+        "svgX": 498,
+        "svgY": 295
+      },
+      "route": [
+        { "svgX": 460, "svgY": 155, "label": "Cape Town, South Africa" },
+        { "svgX": 490, "svgY": 240, "label": "Southern Ocean Transit" },
+        { "svgX": 498, "svgY": 295, "label": "Utsteinen Ridge, Queen Maud Land" }
+      ],
+      "heroImage": "/assets/princess_elisabeth/station_aerial.jpg",
+      "heroImageAlt": "Aerial view of Princess Elisabeth Antarctica station on Utsteinen Ridge",
+      "summary": "Conceived by polar explorer Alain Hubert and the International Polar Foundation, Princess Elisabeth Antarctica opened in 2009 as the world's first zero-emission polar research station. Located on Utsteinen Ridge in Queen Maud Land — just 173 km from the old King Baudouin Base site — the station runs entirely on wind and solar energy, with hydrogen storage for backup. It represents Belgium's most ambitious scientific infrastructure project of the 21st century.",
+      "archivalFacts": [
+        "Princess Elisabeth is named after Princess Elisabeth of Belgium (born 2001), now Crown Princess, who visited the station in 2019.",
+        "The station produces zero carbon emissions — all energy comes from 9 wind turbines and 380 m² of photovoltaic panels, with hydrogen fuel cells for backup.",
+        "Construction required 800 tonnes of materials flown in by Ilyushin Il-76 cargo aircraft and transported overland by convoys across the ice shelf.",
+        "The station can house 16 researchers in summer; in winter it is placed in 'hibernation mode' and fully unmanned.",
+        "Alain Hubert traversed Antarctica on skis and kite in 1997-1998 before dedicating his life to building this station — a 10-year project from conception to inauguration.",
+        "The station's design is based on a 'passive ventilation' principle — its shape directs Antarctic winds around the structure, preventing snow accumulation on the roof."
+      ],
+      "station": {
+        "name": "Princess Elisabeth Antarctica",
+        "namedAfter": "Princess Elisabeth of Belgium (b. 2001), heir apparent to the Belgian throne",
+        "inaugurated": "February 15, 2009",
+        "location": "Utsteinen Ridge, Queen Maud Land, East Antarctica",
+        "coordinates": "71°57′S 23°20′E",
+        "elevation": "1,390 meters above sea level",
+        "surfaceType": "Rocky nunatak ridge (permanent bedrock — not floating ice)",
+        "maxCapacity": "16 researchers and support staff",
+        "operationalSeason": "November to March (Antarctic summer)",
+        "winterMode": "Fully unmanned hibernation mode with automated monitoring",
+        "energySystems": {
+          "windTurbines": "9 × 6 kW Enercon turbines on the ridge above the station",
+          "solarPanels": "380 m² of photovoltaic panels on roof and walls",
+          "hydrogenStorage": "Electrolyzer converts surplus electricity to hydrogen gas; fuel cells regenerate power in low-production periods",
+          "backupGenerators": "Biodiesel generators retained for emergency use only",
+          "carbonBalance": "Net zero — carbon offsets purchased for logistics flights"
+        },
+        "waterSystem": "Snow melting and filtration system; greywater recycling",
+        "wasteManagement": "100% of waste returned to Cape Town — zero landfill in Antarctica",
+        "internetConnectivity": "VSAT satellite link — 4 Mbps up/down",
+        "constructionCost": "Approximately €15 million",
+        "designPrinciple": "Aerodynamic form prevents snow drift accumulation; elevated on stilts for ventilation and ice-movement accommodation",
+        "certifications": ["LEED Platinum equivalent (unofficial)", "ISO 14001 Environmental Management"],
+        "image": "/assets/princess_elisabeth/station_technical.jpg"
+      },
+      "gallery": [
+        { "src": "/assets/princess_elisabeth/gallery_1.jpg", "caption": "Princess Elisabeth station at dawn, with wind turbines visible on the ridge above" },
+        { "src": "/assets/princess_elisabeth/gallery_2.jpg", "caption": "Interior laboratory — climate science instrumentation, 2023" },
+        { "src": "/assets/princess_elisabeth/gallery_3.jpg", "caption": "Solar panels and hydrogen storage system — the station's energy heart" },
+        { "src": "/assets/princess_elisabeth/gallery_4.jpg", "caption": "Alain Hubert with the international research team, summer 2024" }
+      ],
+      "crew": [
+        {
+          "id": "alain_hubert",
+          "name": "Alain Hubert",
+          "role": "Founder & Vision Director, International Polar Foundation",
+          "nationality": "Belgian",
+          "born": "1953, Brussels, Belgium",
+          "died": null,
+          "portrait": "/assets/crew/princess_elisabeth/alain_hubert.jpg",
+          "shortBio": "The man who traversed Antarctica on skis, then spent a decade building its most advanced research station.",
+          "fullBio": "Alain Hubert is one of the most remarkable figures in Belgian exploration history. A civil engineer by training, he turned to polar exploration in mid-career, completing a 99-day, 3,924 km traverse of Antarctica with Dixie Dansercoer in 1997-1998 using skis and kites. The journey transformed his life's mission: he became convinced that Belgium could and should lead a new era of sustainable polar science. He founded the International Polar Foundation in 1998 and spent the next decade raising funds, designing the station, lobbying the Belgian government, and managing one of the most complex construction projects ever undertaken in Antarctica. Princess Elisabeth Antarctica opened in 2009 to global acclaim. Hubert continues to lead international advocacy for polar research and climate action.",
+          "archivalFacts": [
+            "During his 1997-1998 Antarctic traverse, Hubert and Dansercoer became the first to cross the continent using only wind power (kite skis) — no motorized support.",
+            "He personally presented the Princess Elisabeth project to four successive Belgian Prime Ministers before securing permanent federal funding.",
+            "Hubert has been awarded the Belgian Order of Leopold, France's Legion d'Honneur, and the Royal Geographical Society's Polar Medal."
+          ]
+        },
+        {
+          "id": "dixie_dansercoer",
+          "name": "Dixie Dansercoer",
+          "role": "Polar Guide & Logistics Coordinator",
+          "nationality": "Belgian",
+          "born": "1962, Bruges, Belgium",
+          "died": "2021, Arctic Ocean (kite-skiing accident)",
+          "portrait": "/assets/crew/princess_elisabeth/dansercoer.jpg",
+          "shortBio": "Hubert's Antarctic traverse partner and the station's logistics soul. A legend of human-powered polar travel.",
+          "fullBio": "Dixie Dansercoer was Hubert's companion on the 1997-1998 Antarctic traverse and became the operational backbone of the Princess Elisabeth project's logistics planning. A professional guide and expedition organizer, Dansercoer coordinated the complex resupply chains that made the station's construction possible, including the coordination of Ilyushin cargo flights from Cape Town. He continued leading polar expeditions and youth climate expeditions until his death in 2021, when he fell through sea ice during a kite-skiing expedition in the Arctic. The polar community mourned him as one of the great human-powered explorers.",
+          "archivalFacts": [
+            "Dansercoer held the world record for the longest unsupported polar journey by kite ski — 5,013 km across Greenland and the Canadian Arctic in 2012.",
+            "He founded 'Polar Guides,' a company that ran educational polar expeditions for youth groups focused on climate literacy.",
+            "His death in 2021 at age 58, falling through Arctic sea ice that he described as 'dangerously thin,' became a symbolic story about accelerating polar ice loss."
+          ]
+        },
+        {
+          "id": "johan_berte",
+          "name": "Johan Berte",
+          "role": "Station Manager",
+          "nationality": "Belgian",
+          "born": "1977, Antwerp, Belgium",
+          "died": null,
+          "portrait": "/assets/crew/princess_elisabeth/berte.jpg",
+          "shortBio": "The engineer who keeps the world's most sustainable polar station running through Antarctic winters.",
+          "fullBio": "Johan Berte joined the International Polar Foundation as a structural engineer and became the station's first manager after its 2009 inauguration. His responsibilities span the full operational lifecycle of Princess Elisabeth: from managing seasonal openings and research support to overseeing the station's zero-emission energy systems. He has wintered at the station multiple times in 'hibernation monitoring' mode, performing the extraordinary feat of maintaining the unmanned station's automated systems. Berte is also a pioneer in Antarctic station sustainability, having designed waste management and water recycling systems now adopted by other national programs.",
+          "archivalFacts": [
+            "Berte designed the station's 'smart energy management system' — a custom algorithm that balances wind, solar, and hydrogen power in real-time.",
+            "He spent 14 months continuously at or near the station during the complex second construction phase — the longest consecutive stay by a Belgian in Antarctica.",
+            "His waste management protocol — zero landfill, all waste returned to Cape Town — has been adopted as a model by the Antarctic Treaty Consultative Meeting."
+          ]
+        },
+        {
+          "id": "charlotte_gillard",
+          "name": "Dr. Charlotte Gillard",
+          "role": "Lead Climate Scientist",
+          "nationality": "Belgian",
+          "born": "1985, Namur, Belgium",
+          "died": null,
+          "portrait": "/assets/crew/princess_elisabeth/gillard.jpg",
+          "shortBio": "One of Europe's leading ice core paleoclimatologists, running Princess Elisabeth's flagship climate reconstruction program.",
+          "fullBio": "Charlotte Gillard completed her doctorate at the Université Catholique de Louvain in ice core chemistry before joining the Princess Elisabeth science team. She leads the station's flagship BELSPO-funded climate reconstruction project, drilling ice cores that contain atmospheric records stretching back 800,000 years. Her work connects directly to the legacy of Rudi Vandendriessche's first Belgian ice cores from 1958 — modern techniques now extract thousand times more data from comparable samples. Gillard is a prominent public communicator of Antarctic climate science and has given testimony to the European Parliament on ice sheet stability.",
+          "archivalFacts": [
+            "Gillard's 2021 ice core study, published in Nature Climate Change, identified a previously unknown rapid warming event 120,000 years ago, offering new context for projections of future sea level rise.",
+            "She is developing an educational program linking Belgian secondary schools directly to Princess Elisabeth via live satellite feeds during Antarctic summer research season.",
+            "Gillard holds the record for the most research seasons at Princess Elisabeth — 11 summers as of 2026."
+          ]
+        }
+      ]
+    }
+  ],
+  "iceExtentByYear": {
+    "1897": 1.0,
+    "1957": 0.97,
+    "1975": 0.95,
+    "1990": 0.91,
+    "2000": 0.87,
+    "2012": 0.82,
+    "2019": 0.76,
+    "2023": 0.71,
+    "2026": 0.68
+  },
+  "timelineConfig": {
+    "startYear": 1897,
+    "endYear": 2026,
+    "milestones": [
+      { "year": 1897, "label": "Belgica departs Antwerp" },
+      { "year": 1898, "label": "Belgica trapped in ice" },
+      { "year": 1957, "label": "IGY begins" },
+      { "year": 1958, "label": "King Baudouin Base founded" },
+      { "year": 1959, "label": "Antarctic Treaty signed" },
+      { "year": 2009, "label": "Princess Elisabeth inaugurated" },
+      { "year": 2019, "label": "Record Antarctic ice minimum" },
+      { "year": 2026, "label": "Today" }
+    ]
+  }
+}
