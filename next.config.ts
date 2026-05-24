@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export' as const,
+  // Zorgt dat CSS en JS in de juiste submap zoeken op GitHub Pages:
+  basePath: '/polar-atlas', 
   images: {
     unoptimized: true,
   },
@@ -13,5 +15,5 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default nextConfig;   
 
